@@ -1,0 +1,165 @@
+body {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: grey;
+}
+
+.big-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+}
+
+#title {
+  background-color: #ff4c68;
+  padding: 3% 10%;
+}
+
+#features {
+  padding: 10% 10%;
+  position: relative;
+  background-color: white;
+}
+
+.padding-bottom {
+  padding-bottom: 6%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  font-size: 1.25rem;
+}
+
+.container {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-dwnld {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  transform: rotate(20deg);
+  width: 303px;
+  position: absolute;
+  right: 20%;
+}
+
+.feature-center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.feature-format {
+  margin: 0 10%;
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.carousel-item {
+  padding: 10% 10% 7%;
+}
+
+.dog {
+  width: 15%;
+  border-radius: 100%;
+  margin: 2% 2% 0;
+}
+
+#press {
+  background-color: #ef8172;
+}
+
+.logo {
+  margin: 0 20px 50px;
+  width: 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.price-tag {
+  padding: 3% 2%;
+}
+
+#pricing h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#pricing h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #ef8172;
+}
+
+@media (max-width: 991px) {
+  .big-heading {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 303px;
+    position: static;
+    margin-top: 5%;
+    transform: rotate(0deg);
+  }
+
+  .navbar-toggler {
+    background-color: #ff4c68;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 10%;
+}
+
+#cta h3 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+
+#footer {
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-icon {
+  margin: 1% 1%;
+}
