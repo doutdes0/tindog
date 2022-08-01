@@ -107,7 +107,7 @@ p {
 }
 
 #pricing {
-  padding: 100px;
+  padding: 7% 10%;
 }
 
 .price-tag {
@@ -127,7 +127,15 @@ p {
   color: #ef8172;
 }
 
+
 @media (max-width: 991px) {
+  #navbarNav {
+    border-right: none !important;
+  }
+
+.nav-item {
+text-align: left;
+}
   .big-heading {
     text-align: center;
   }
